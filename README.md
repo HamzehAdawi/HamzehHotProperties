@@ -25,7 +25,7 @@ AGENT Accounts:
 - Responsible for posting listings, responding to buyers messages, adding / deleting properties etc..
 - Licensed and can only be created by admins
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend ◀️
 - Java  
