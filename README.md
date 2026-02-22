@@ -8,8 +8,8 @@ Users accounts are broken down into 3 roles all of which are responsible for som
 - password: buyer123
 
 Feel free to try out other roles below or view the video demos. 
-<br><br><br>
-## Account Information & Active Username/Password
+<br><br><br><br><br>
+## Demo Account Information & All users stored in MySQL secure with JWT authentification 🔒
 BUYER Accounts:
 - Able to search and browse available properteis, contact agents, favortie properties, etc.
 - Created by anyone through register page
@@ -24,7 +24,28 @@ AGENT Accounts:
 - password: agent123
 - Responsible for posting listings, responding to buyers messages, adding / deleting properties etc..
 - Licensed and can only be created by admins
-  
+
+## 🛠 Tech Stack
+
+### Backend
+- Java  
+- Spring Boot  
+- Spring Security (JWT Authentication)  
+- JPA / Hibernate  
+- MySQL  
+
+### Frontend
+- JavaScript  
+- Thymeleaf  
+- HTML5  
+- CSS3  
+
+### Security & Infrastructure
+- JWT-based Authentication & Authorization  
+- Role-Based Access Control (Admin / Agent / Buyer)  
+- Custom Security Filters & Rate Limiting  
+- AWS Deployment
+- 
 ## Demo
 
 AGENT Demo
