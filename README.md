@@ -24,7 +24,7 @@ AGENT Accounts:
 - password: agent123
 - Responsible for posting listings, responding to buyers messages, adding / deleting properties etc..
 - Licensed and can only be created by admins
-
+<br>
 ## Tech Stack
 
 ### Backend ◀️
@@ -47,6 +47,7 @@ AGENT Accounts:
 - AWS Deployment
 
 ### All users stored in MySQL secure with 
+<br>
 ## Demo
 
 AGENT Demo
