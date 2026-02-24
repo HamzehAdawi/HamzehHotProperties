@@ -7,7 +7,7 @@ User accounts are broken down into
 3 roles: 
 - Admin - account management via admin portal, 
 - Agent - property listing, selling, and handeling of message inquiries for properties. 
-- Buyers for shopping listed properties or connecting with agents for selling. 
+- Buyers - for shopping listed properties or connecting with agents for selling. 
 
 #### For demo purposes it is best to log in and visit the website as a buyer. 
 #### Please use the following credentials:
