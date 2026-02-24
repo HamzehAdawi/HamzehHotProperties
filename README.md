@@ -10,7 +10,8 @@ User accounts are broken down into
 - Buyers - for shopping listed properties or connecting with agents for selling. 
 
 #### For demo purposes it is best to log in and visit the website as a buyer. 
-#### Please use the following credentials:
+
+Please use the following credentials:
 - username: buyer@email.com
 - password: buyer123
 <br>
