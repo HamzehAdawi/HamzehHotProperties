@@ -10,23 +10,6 @@ User accounts are broken down into 3 roles: 1. Admin for account creation (agent
 Deployed websit here: https://hamzeh-hot-properties.com
 
 <br><br><br>
-
-## Demo Account Information 
-BUYER Accounts:
-- Able to search and browse available properteis, contact agents, favortie properties, etc.
-- Created by anyone through register page
-
-ADMIN Accounts: 
-- email: admin@email.com
-- password: admin123
-- Able to create Agent users (responsible for listing properties)
-
-AGENT Accounts:
-- agent@email.com
-- password: agent123
-- Responsible for posting listings, responding to buyers messages, adding / deleting properties etc..
-- Licensed and can only be created by admins
-<br>
 ## Tech Stack
 
 ### Backend ◀️
@@ -76,75 +59,20 @@ https://github.com/user-attachments/assets/e446cfe7-0f2d-4458-b135-4c7bee3e305d
 ## Additional Features
 (1) Messaging, (2) Favorites, (3) Deleting Properties and Users, (4) Browse Property Filters
 
-## Contribution Summary
-- config
-  - CustomAccessDeniedHandler.java: Hamzeh     
-  - CustomAuthenticationEntryPoint.java: Hamzeh  
-  - SecurityConfig.java: Joe and Hamzeh
-- controller
-  - UserController.java: All
-- dtos
-  - BadParamaterException: Hamzeh
-  - AlreadyExistsException: Hamzeh
-  - JwtResponse.java: Joe & Hamzeh
-- entities
-  - Property.java: Hamzeh & Zach
-  - Favorite.java: Zach 
-  - PropertyImage.java: Hamzeh 
-  - Messages: Hamzeh
-  - User.java: ALL
-- exceptions
-  - NotFoundException.java: Madeleine 
-  - UserAlreadyExistsException.java: Madeleine
-- initializer
-  - DataInitializer.java: Zach & Hamzeh 
-- jwt
-  - JwtUtil.java: Joe
-- repository
-  - FavoriteRepository.java: Zach
-  - PropertyImageRepository.java: Hamzeh
-  - PropertyRepository.java: Hamzeh & Zach
-  - UserRepository.java: Hamzeh and Madeleine
-  - MessagesRepository: Hamzeh
-- service
-  - AuthService: Hamzeh
-  - AuthServiceImpl.java: Hamzeh, Zach, Joe
-  - PropertyServiceImpl: Hamzeh
-  - PropertyImageServiceImpl: Hamzeh
-  - CustomUserDetailsService.java: Hamzeh
-  - CustomUserDetailsServiceImpl.java: Hamzeh & Joe
-  - UserService.java: All
-  - UserServiceImpl.java: All
-  - MessageServices: Hamzeh
-  - MessagesServiceImpl: Hamzeh
-- utils
-  - CurrentUserContext.java: Hamzeh
-  - GlobalRateLimiterFilter.java: Hamzeh
-  - JwtAuthenticationFilter.java: : Hamzeh
-  - JwtSecretGenerator.java: Hamzeh
 
-- HTML 
-  - admin_style.css: Madeleine
-  - dashboard_style.css: Hamzeh, Zach, Madeleine (support)
-  - login.css & HTML: Joe
-  - profile_style.css: Hamzeh
-  - property_style.css: Zach
-  - 
-- templates
-  - add_agent.html: Madeleine
-  - add_properties.html: Hamzeh
-  - agentViewMessage.html: Hamzeh
-  - all_users.html: Madeleine
-  - browse_properties.html: Hamzeh
-  - dashboard.html: All
-  - edit_profile.html: Hamzeh & Zach
-  - edit_property.html: Hamzeh
-  - favorites.html: Zach
-  - fragments.html: Hamzeh
-  - login.html: Joe
-  - manage_properties.html: Hamzeh
-  - messages.html: Hamzeh
-  - messagesBuyer.html: Hamzeh
-  - my_profile.html: Hamzeh & Zach
-  - property_view.html: Zach
-  - register.html: Joe
+## Other Demo Account Information 
+BUYER Accounts:
+- Able to search and browse available properteis, contact agents, favortie properties, etc.
+- Created by anyone through register page
+
+ADMIN Accounts: 
+- email: admin@email.com
+- password: admin123
+- Able to create Agent users (responsible for listing properties)
+
+AGENT Accounts:
+- agent@email.com
+- password: agent123
+- Responsible for posting listings, responding to buyers messages, adding / deleting properties etc..
+- Licensed and can only be created by admins
+<br>
